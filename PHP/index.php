@@ -40,14 +40,12 @@
 <form method="get" action="<?php $_SERVER['PHP_SELF'] ?>">
 	<label for="multiple">Multiple: </label>
 	<input type="number" name="multiple" id="multiple" min="3" max="100">
-	<input type="submit" id="calculate" value="Multiply"> 
-	<!-- name="calculate" -->
+	<input type="submit" id="calculate" value="Multiply">
 </form>
 <br><br>
 <table>
 
-	<?php
-	
+	<?php	
 		if( isset($_GET['multiple']) ) {
 			$multiple = $_GET['multiple'];
 			init($multiple);
@@ -55,14 +53,6 @@
 			$multiple = 10;
 			init($multiple);
 		}
-	
-//		if (!$_POST) {
-//			$multiple = 10;
-//			init($multiple);
-//		} 
-//		if ($_POST) {
-//			init();
-//		}
 	?>
 </table>
 </body>
