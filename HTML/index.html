@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge: using loops</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Multiplication Table</h1>
+<br><br>
+<form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
+	<label for="multiple">Multiple: </label>
+	<input type="number" name="multiple" id="multiple" max="100" min="3">
+	<input type="submit" name="calculate" id="calculate" value="Multiply">
+</form>
+<br><br>
+<table id="multiplicationTable">
+
+</table>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
