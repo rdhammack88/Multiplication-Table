@@ -38,21 +38,6 @@ function displayTable(multiple) {
 		}
 	}
 	
-//	var dataCells = Array.from(document.getElementsByTagName('td'));
-//	
-//	for(var i = 0; i < dataCells.length; i++) {
-//		var data = dataCells[i].innerHTML;
-////		data = parseInt(data);
-//		if(parseInt(data) % 2 == 0) {
-////			console.log(data);
-//			dataCells[i].style.backgroundColor = '#a47e3c';
-//		} else {
-//			dataCells[i].style.backgroundColor = '#f2f';
-//		}
-//	}
-	
-//	console.log(dataCells);
-	
 	var dataCells = Array.from(document.getElementsByTagName('tr'));
 	
 	for(var i = 1; i < dataCells.length; i++) {
